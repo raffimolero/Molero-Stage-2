@@ -168,7 +168,7 @@ nest generate module prisma
 nest generate service prisma
 ```
 
-- PrismaService extends PrismaClient (imported from generated/prisma_client)
+- PrismaService extends PrismaClient
   - implements OnModuleInit
 - add PrismaModule `exports: [PrismaService],`
 - swagger

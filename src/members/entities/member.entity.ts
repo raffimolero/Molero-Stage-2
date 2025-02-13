@@ -1,3 +1,3 @@
-import { members } from 'generated/prisma_client';
+import { members } from '@prisma/client';
 
 export type Member = members;

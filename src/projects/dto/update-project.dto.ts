@@ -1,3 +1,3 @@
-import { Prisma } from 'generated/prisma_client';
+import { Prisma } from '@prisma/client';
 
 export type UpdateProjectDto = Prisma.projectsUpdateInput;

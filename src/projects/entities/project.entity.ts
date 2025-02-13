@@ -1,3 +1,3 @@
-import { projects } from 'generated/prisma_client';
+import { projects } from '@prisma/client';
 
 export type Project = projects;
